@@ -1,26 +1,25 @@
 function gred (markah,lokasi){
-    document.getElementById(lokasi).innerText=markah
-}
-/*if(number<21){
+ /*  document.getElementById(lokasi).innerText=markah
+}*/
+if(markah<21){
         
-        document.getElementById("resulta").innerHTML="E"
+        document.getElementById(lokasi).innerText="E"
     }
-    else if(number<41){
+    else if(markah<41){
 
-        document.getElementById("resulta").innerHTML="D"
+        document.getElementById(lokasi).innerText="D"
         
     }
-    else if(number<61){
+    else if(markah<61){
         
-        document.getElementById("resulta").innerHTML="C"
+        document.getElementById(lokasi).innerText="C"
     }
-    else if(number<81){
+    else if(markah<81){
 
-        document.getElementById("resulta").innerHTML="B"
+        document.getElementById(lokasi).innerText="B"
     }
     else
 
-    document.getElementById("resulta").innerHTML="A"
+    document.getElementById(lokasi).innerText="A"
 
-*/   
-
+} 
