@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <table border="5" width="800" cellpading="10" cellspacing="4">
+        <tr>
+            <th>SUBJEK</th>
+            <th>MARKAH</th>
+            <th>GRED</th>
+        </tr>
+        <tr>
+            <th>BM1</th>
+            <th>
+                <input type="number" min="0" max="100" required onchange="gred(this.value , 'bm1');">
+            </th>
+            <th id="bm1"></th>
+        </tr>
+
+        <tr>
+            <th>BM2</th>
+            <th>
+                <input type="number" min="0" max="100" required onchange="gred(this.value , 'bm2');">
+            </th>
+            <th id="bm2"></th>
+        </tr>
+
+        <tr>
+            <th>BI</th>
+            <th>
+                <input type="number" min="0" max="100" required onchange="gred(this.value , 'bi');">
+            </th>
+            <th id="bi"></th>
+        </tr>
+
+        <tr>
+            <th>SCIENCE</th>
+            <th>
+                <input type="number" min="0" max="100" required onchange="gred(this.value ,'sains');">
+            </th>
+            <th id="sains"></th>
+        </tr>
+
+        <tr>
+            <th>MATHEMATIC</th>
+            <th>
+                <input type="number" min="0" max="100" required onchange="gred(this.value ,'math');">
+            </th>
+            <th id="math"></th>
+        </tr>
+</body>
+
+</html>
